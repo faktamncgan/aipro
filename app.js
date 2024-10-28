@@ -20,7 +20,7 @@ async function sendMessage() {
     inputField.value = '';
 
     try {
-        const response = await fetch('https://api.betabotz.eu.org/api/search/openai-custom', {
+        const response = await fetch('https://api.betabotz.eu.org/api/search/openai-chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
